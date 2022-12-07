@@ -67,7 +67,7 @@ function getSum(n) {
 
 - Course «Front End Developer» from [TeachMeSkills](https://teachmeskills.by) school.
 
-![sertificate](./images/sertificate.png)
+![sertificate](/sertificate.png)
 
 - JavaScript Manual on learnjavascript.ru (in progress)
 
