@@ -67,7 +67,7 @@ function getSum(n) {
 
 - Course «Front End Developer» from [TeachMeSkills](https://teachmeskills.by) school.
 
-![sertificate](/sertificate.png)
+![sertificate](./images/sertificate.png)
 
 - JavaScript Manual on learnjavascript.ru (in progress)
 
@@ -80,4 +80,3 @@ function getSum(n) {
 - Russian - Native
 - Belarussian - Basic
 - Inglish - Intermidiate
-
