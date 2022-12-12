@@ -1,62 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
+  <head><meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <title>CV</title>
   </head>
   <body>
-    <header class="header"><p class="header__item">About me</p><p class="header__item">Skills</p><p class="header__item">Portfolio</p><p class="header__item">Contacts</p></header>
-    <div class="intro">
-      <div class="intro__item">
-        <h3 class="intro__name">Kulak <br> Svetlana</h3>
-        <p class="intro__profession">Junior Frontend Developer, 23 years old, Minsk</p>
-      </div><img class="intro__img" src="./images/me.png" alt="me">
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__navigation">
+          <a class="header__item" href="#">About me</a>
+          <a class="header__item" href="#">Skills</a>
+          <a class="header__item" href="#">Portfolio</a>
+          <a class="header__item" href="#">Contacts</a>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="intro">
+          <div class="intro__item">
+            <h1 class="intro__name">
+              Kulak <br>
+              Svetlana
+            </h1>
+            <p class="intro__profession">
+              Junior Frontend Developer, 23 years old, Minsk
+            </p>
+          </div>
+          <img class="intro__img" src="./images/me.png" alt="me">
+        </div>
+        <div class="wrapper wrapper_color_grey">
+          <div class="aboutMe">
+            <h2 class="aboutMe__item headline">About Me</h2>
+            <p class="aboutMe__text">
+              All my life I have a desire to continuously learn something new.
+              After graduating from university and <br>
+              having worked in financial fields for several years, I decided
+              that I was hungry for new knowledge in another industry. My choice
+              fell on web development.
+            </p>
+            <p class="aboutMe__text">
+              While studying this IT direction, I encountered many difficulties
+              in understanding some topics, but at the same time I found
+              something in this business that inspires me and brings me
+              pleasure.
+            </p>
+            <p class="aboutMe__text">
+              There is something wonderful about when you look for a bug in your
+              code and try to make it workable and finally find a solution to
+              the problem. I love to see the result of my work in the form of a
+              beautiful and useful site for users. I like to see how the
+              designer's layout turns into a real website in the vastness of the
+              browser.
+            </p>
+            <p class="aboutMe__text">
+              Now I am at the relative beginning of my path of becoming a
+              developer and <br>
+              I think that I will succeed and I will fully know the advantages
+              and opportunities of this profession.
+            </p>
+          </div>
+        </div>
+        <div class="skills">
+          <h2 class="headline">Skills</h2>
+          <ul class="skills__items">
+            <li class="skills__item">
+              <img
+                class="skills__img"
+                src="./images/html.png"
+                alt="html, css, JS"
+              >
+              <p class="skills__description">HTML5, CSS3, JavaScript basic</p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="./images/sass.png" alt="sass">
+              <p class="skills__description">Sass and Less CSS extensions</p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="./images/TS.png" alt="TS">
+              <p class="skills__description">TypeScript basic</p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="./images/react.png" alt="react">
+              <p class="skills__description">React and redux</p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="./images/figma.png" alt="figma">
+              <p class="skills__description">
+                Layout according<br>to Figma and Photoshop
+              </p>
+            </li>
+            <li class="skills__item">
+              <img class="skills__img" src="./images/webpack.png" alt="webpack">
+              <p class="skills__description">Webpack and Parcel</p>
+            </li>
+          </ul>
+        </div>
+        <div class="wrapper wrapper_color_grey">
+          <div class="portfolio">
+            <h2 class="headline">Portfolio</h2>
+            <div class="portfolio__items">
+              <div class="portfolio__item">
+                <img
+                  class="portfolio__imgBook"
+                  src="./images/book-store.png"
+                  alt="store">
+                <img
+                  class="portfolio__imgBook"
+                  src="./images/bookDetail.png"
+                  alt="bookDetail">
+              </div>
+              <p class="portfolio__description">BookStore</p>
+              <div class="portfolio__item">
+                <img
+                  class="portfolio__imgSlider"
+                  src="./images/slider.png"
+                  alt="slider">
+              </div>
+              <p class="portfolio__description">Slider</p>
+              <div class="portfolio__item">
+                <img
+                  class="portfolio__imgMogo"
+                  src="./images/mogo.png"
+                  alt="mogo">
+                <img
+                  class="portfolio__imgMogo"
+                  src="./images/mogoDetail.png"
+                  alt="mogo">
+              </div>
+              <p class="portfolio__description">MOGO website</p>
+            </div>
+          </div>
+        </div>
+        <div class="contscts">
+          <h2 class="headline">Contacts</h2>
+          <p class="contacts__text">
+            Want to know more or just chat?<br>You are welcome!
+          </p>
+          <div class="contacts__links">
+            <a
+              class="contacts__link"
+              href="https://www.linkedin.com/in/svetlana-kulak-492a73248"
+              >Linkedin</a
+            >
+            <a
+              class="contacts__link"
+              href="https://instagram.com/__lana__7?igshid=MWM2YjBjM2Q"
+              >Instagram</a
+            >
+            <a class="contacts__link" href="https://t.me/lana_022">Telegram</a>
+            <a
+              class="contacts__link"
+              href="https://github.com/Lana34?tab=repositories"
+              >GitHub</a
+            >
+          </div>
+          <p class="contacts__act">Like me on <br>LinkedIn, Instagram</p>
+        </div>
+      </main>
+      <footer class="footer">
+        <a class="footer__link" href="https://rs.school/js/">
+          <img class="footer__logo" src="./images/logo.png" alt="logo">
+        </a>
+        <p class="footer__year">2022, Minsk</p>
+      </footer>
     </div>
-    <div class="container__grey">
-      <div class="aboutMe">
-        <h2 class="aboutMe__item headline">About Me</h2>
-        <p class="aboutMe__text">All my life I have a desire to continuously learn something new. After graduating from university and <br> having worked in financial fields for several years, I decided that I was hungry for new knowledge in another industry. My choice fell on web development.</p>
-        <p class="aboutMe__text">While studying this IT direction, I encountered many difficulties in understanding some topics, but at the same time I found something in this business that inspires me and brings me pleasure.</p>
-        <p class="aboutMe__text">There is something wonderful about when you look for a bug in your code and try to make it workable and finally find a solution to the problem. I love to see the result of my work in the form of a beautiful and useful site for users. I like to see how the designer's layout turns into a real website in the vastness of the browser.</p>
-        <p class="aboutMe__text">Now I am at the relative beginning of my path of becoming a developer and <br> I think that I will succeed and I will fully know the advantages and opportunities of this profession.</p></div></div>
-    <div class="skills">
-      <h2 class="headline">Skills</h2>
-      <div class="skills__items">
-        <div class="skills__item"><img class="skills__img" src="./images/html.png" alt="html, css, JS"><p class="skills__description">HTML5, CSS3, JavaScript basic</p></div>
-        <div class="skills__item"><img class="skills__img" src="./images/sass.png" alt="sass"><p class="skills__description">Sass and Less CSS extensions</p></div>
-        <div class="skills__item"><img class="skills__img" src="./images/TS.png" alt="TS" ><p class="skills__description">TypeScript basic</p></div>
-        <div class="skills__item"><img class="skills__img" src="./images/react.png" alt="react"><p class="skills__description">React and redux</p></div>
-        <div class="skills__item"><img class="skills__img" src="./images/figma.png" alt="figma"><p class="skills__description">Layout according<br>to Figma and Photoshop</p></div>
-        <div class="skills__item"><img class="skills__img" src="./images/webpack.png" alt="webpack"><p class="skills__description"> Webpack and Parcel</p></div></div></div>
-    <div class="container__grey">
-      <div class="portfolio">
-        <h2 class="headline">Portfolio</h2>
-        <div class="portfolio__items">
-          <div class="portfolio__item">
-            <img class="portfolio__imgBook" src="./images/book-store.png" alt="store">
-            <img class="portfolio__imgBook" src="./images/bookDetail.png" alt="bookDetail">
-          </div>
-          <p class="portfolio__description">BookStore</p>
-          <div class="portfolio__item">
-            <img class="portfolio__imgSlider" src="./images/slider.png" alt="slider">
-          </div>
-          <p class="portfolio__description">Slider</p>
-          <div class="portfolio__item">
-            <img class="portfolio__imgMogo" src="./images/mogo.png" alt="mogo">
-            <img class="portfolio__imgMogo" src="./images/mogoDetail.png" alt="mogo">
-          </div><p class="portfolio__description">MOGO website</p></div></div></div>
-    <div class="contscts">
-      <h2 class="headline">Contacts</h2>
-      <p class="contacts__text">Want to know more or just chat?<br>You are welcome!</p>
-<div class="contacts__links">
-  <a class="contacts__link" href="https://www.linkedin.com/in/svetlana-kulak-492a73248">Linkedin</a>
-  <a class="contacts__link" href="https://instagram.com/__lana__7?igshid=MWM2YjBjM2Q">Instagram</a>
-  <a class="contacts__link" href="https://t.me/lana_022">Telegram</a>
-  <a class="contacts__link" href="https://github.com/Lana34?tab=repositories">GitHub</a>
-</div><p class="contacts__act">Like me on <br>LinkedIn, Instagram</p></div>
   </body>
 </html>
