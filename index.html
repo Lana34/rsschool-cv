@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <title>CV</title>
   </head>
   <body>
@@ -13,6 +16,7 @@
           <a class="header__item" href="#">About me</a>
           <a class="header__item" href="#">Skills</a>
           <a class="header__item" href="#">Portfolio</a>
+          <a class="header__item" href="#">Courses and languages</a>
           <a class="header__item" href="#">Contacts</a>
         </nav>
       </header>
@@ -68,8 +72,7 @@
               <img
                 class="skills__img"
                 src="./images/html.png"
-                alt="html, css, JS"
-              >
+                alt="html, css, JS">
               <p class="skills__description">HTML5, CSS3, JavaScript basic</p>
             </li>
             <li class="skills__item">
@@ -91,7 +94,10 @@
               </p>
             </li>
             <li class="skills__item">
-              <img class="skills__img" src="./images/webpack.png" alt="webpack">
+              <img
+                class="skills__img"
+                src="./images/webpack.png"
+                alt="webpack">
               <p class="skills__description">Webpack and Parcel</p>
             </li>
           </ul>
@@ -110,52 +116,85 @@
                   src="./images/bookDetail.png"
                   alt="bookDetail">
               </div>
-              <p class="portfolio__description">BookStore</p>
+              <a
+                href="https://github.com/Lana34/book-store"
+                class="portfolio__description"
+                >BookStore</a>
               <div class="portfolio__item">
                 <img
                   class="portfolio__imgSlider"
                   src="./images/slider.png"
                   alt="slider">
               </div>
-              <p class="portfolio__description">Slider</p>
+              <a
+                href="https://github.com/Lana34/Slider"
+                class="portfolio__description"
+                >Slider</a
+              >
               <div class="portfolio__item">
                 <img
-                  class="portfolio__imgMogo"
-                  src="./images/mogo.png"
-                  alt="mogo">
+                  class="portfolio__imgMogo" src="./images/mogo.png"  alt="mogo">
                 <img
                   class="portfolio__imgMogo"
                   src="./images/mogoDetail.png"
                   alt="mogo">
               </div>
-              <p class="portfolio__description">MOGO website</p>
+              <a
+                href="https://github.com/Lana34/MOGO3"
+                class="portfolio__description"
+                >MOGO website</a
+              >
             </div>
           </div>
         </div>
-        <div class="contscts">
-          <h2 class="headline">Contacts</h2>
-          <p class="contacts__text">
-            Want to know more or just chat?<br>You are welcome!
-          </p>
-          <div class="contacts__links">
-            <a
-              class="contacts__link"
-              href="https://www.linkedin.com/in/svetlana-kulak-492a73248"
-              >Linkedin</a
-            >
-            <a
-              class="contacts__link"
-              href="https://instagram.com/__lana__7?igshid=MWM2YjBjM2Q"
-              >Instagram</a
-            >
-            <a class="contacts__link" href="https://t.me/lana_022">Telegram</a>
-            <a
-              class="contacts__link"
-              href="https://github.com/Lana34?tab=repositories"
-              >GitHub</a
-            >
+        <div class="courses">
+          <h2 class="headline">Courses and languages</h2>
+          <ul class="courses__items">
+            <li class="courses__item">
+              <a class="courses__link" href="https://teachmeskills.by"
+                >Course «Front End Developer» from TeachMeSkills school
+                (sertificate)</a
+              >
+            </li>
+            <li class="courses__item">
+              JavaScript Manual on learnjavascript.ru (in progress)
+            </li>
+            <li class="courses__item">
+              RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+            </li>
+          </ul>
+          <ul class="courses__items">
+            <li class="courses__item">Russian - Native</li>
+            <li class="courses__item">
+              Belarussian - Basic
+            </li>
+            <li class="courses__item">
+              Inglish - Intermidiate
+            </li>
+          </ul>
+        </div>
+        <div class="wrapper wrapper_color_grey">
+          <div class="contscts">
+            <h2 class="headline">Contacts</h2>
+            <p class="contacts__text">
+              Want to know more or just chat?<br>You are welcome!
+            </p>
+            <div class="contacts__links">
+              <a
+                class="contacts__link"
+                href="https://www.linkedin.com/in/svetlana-kulak-492a73248"
+                >Linkedin</a>
+              <a
+                class="contacts__link"
+                href="https://instagram.com/__lana__7?igshid=MWM2YjBjM2Q"
+                >Instagram</a>
+              <a class="contacts__link" href="https://t.me/lana_022">Telegram</a>
+              <a
+                class="contacts__link"
+                href="https://github.com/Lana34?tab=repositories"
+                >GitHub</a>
+            </div>
           </div>
-          <p class="contacts__act">Like me on <br>LinkedIn, Instagram</p>
         </div>
       </main>
       <footer class="footer">
